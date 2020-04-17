@@ -103,6 +103,10 @@ body{
   color: #222831;
 }
 
+#properties h1{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 .custom-card {
   border: 0;
   background-color: #FBFBFB;
@@ -116,11 +120,6 @@ body{
   font-size: 1.2rem;
   font-weight: 300;
   background-color: #EFEFEF;
-}
-
-#properties h1{
-  font-size: 2rem;
-  margin-bottom: 1rem;
 }
 
 .card-btn {
