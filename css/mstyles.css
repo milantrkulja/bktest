@@ -5,15 +5,15 @@
     padding: 0;
   }
 
+  .cover-welcome {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
   .cover-heading {
     font-weight: 700;
     font-size: 2rem;
     margin: 2rem 0 1rem 0;
-  }
-
-  .cover-welcome {
-    font-weight: 300;
-    font-size: 1rem;
   }
 
   .cover-apply {
@@ -25,7 +25,7 @@
 
   #about-us {
     color: #222831;
-    padding: 0;
+    padding: 4% 5%;
   }
 
   .about-us-content h1{
