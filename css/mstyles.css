@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+
+  body{
+    text-align: center;
+    padding: 0;
+  }
+
+  .cover-heading {
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .cover-welcome {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  .cover-apply {
+    border-radius: 0.2rem;
+    background-color: #00AEEF;
+    border-color: #00AEEF;
+    margin: 5% 0;
+  }
+
+  #about-us {
+    color: #222831;
+    padding: 0;
+  }
+
+  .about-us-content h1{
+    font-size: 1.5rem;
+  }
+
+  .about-us-content p{
+    padding-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+}
