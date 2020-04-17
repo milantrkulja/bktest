@@ -207,10 +207,11 @@ body{
 }
 
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
   body{
     text-align: center;
+    padding: 0;
   }
 
   .cover-heading {
@@ -223,5 +224,28 @@ body{
     font-weight: 300;
     font-size: 1rem;
   }
+
+  .cover-apply {
+    border-radius: 0.2rem;
+    background-color: #00AEEF;
+    border-color: #00AEEF;
+    margin: 5% 0;
+  }
+
+  #about-us {
+    color: #222831;
+  }
+
+  .about-us-content h1{
+    font-size: 1.5rem;
+  }
+
+  .about-us-content p{
+    padding-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
 
 }
