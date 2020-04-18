@@ -150,6 +150,7 @@ body{
 }
 
 #location h1 {
+  font-size: 2rem;
   margin-top: -6rem;
 }
 
@@ -163,7 +164,6 @@ body{
   background-color: #57585A;
   padding: 1.8% 20%;
   text-align: left;
-  vertical-align: middle;
 }
 
 #apply-now h2{
