@@ -88,7 +88,7 @@
     <h1>Properties</h1>
     <div class="row">
 
-      <div class="col-lg-4 col-md-12 col-sm-12">
+      <div class="col-lg-4 col-md-12">
         <div class="custom-card card">
           <div class="card-header">
             333 Lester St
@@ -101,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="col-lg-4 col-md-6">
         <div class="custom-card  card">
           <div class="card-header">
             330 Lester St
@@ -115,7 +115,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="col-lg-4 col-md-6">
         <div class="custom-card  card">
           <div class="card-header">
             338 Lester St
@@ -132,9 +132,16 @@
   </section>
 
   <section id="location">
-    <div class="location-header"></div>
-    <h1>Location</h1>
-    <div id="map"></div>
+    <div class="location-header">
+
+    </div>
+
+    <div class="location-content">
+      <h1 class="my-auto">Location</h1>
+    </div>
+    <div id="map">
+
+    </div>
   </section>
 
   <section id=apply-now>
@@ -176,11 +183,60 @@
 
   <script>
     var map;
-    var myLatLng = {
+    var home = {
       lat: 43.476929,
       lng: -80.537376
     };
 
+    var university1 = {
+      lat: 43.472286,
+      lng: -80.544861
+    };
+
+    var university2 = {
+      lat: 43.473900,
+      lng: -80.527790
+    }
+
+    var bus1 = {
+      lat: 43.477853,
+      lng: -80.537276
+    }
+
+    var bus2 = {
+      lat: 43.475120,
+      lng: -80.527512
+    }
+
+    var bus3 = {
+      lat: 43.474459,
+      lng: -80.546595
+    }
+
+    var bus4 = {
+      lat: 43.470562,
+      lng: -80.544351
+    }
+
+    var atm1 = {
+      lat: 43.476895,
+      lng: -80.539209
+    }
+
+    var atm2 = {
+      lat: 43.4778455,
+      lng: -80.525665
+    }
+
+    var atm3 = {
+      lat: 43.473874,
+      lng: -80.527490
+    }
+
+    var atm4 = {
+      lat: 43.471689,
+      lng: -80.545229
+    }
 
     function initMap() {
       map = new google.maps.Map(document.getElementById('map'), {
@@ -337,27 +393,73 @@
 
       var icons = {
         home: {
-          icon: 'images/location3.png',
+          icon: 'images/bk-icon.png'
+        },
+        university: {
+          icon: 'images/university-icon.png'
+        },
+        bus: {
+          icon: 'images/bus-icon.png'
+        },
+        atm: {
+          icon: 'images/bank-icon.png'
         }
       };
 
-      var features = [
-        {
-          position: new google.maps.LatLng(myLatLng),
-            type: 'home'
-        }
 
+      var features = [{
+          position: new google.maps.LatLng(home),
+          type: 'home'
+        },{
+          position: new google.maps.LatLng(university1),
+          type: 'university'
+        },{
+          position: new google.maps.LatLng(university2),
+          type: 'university'
+        },{
+          position: new google.maps.LatLng(bus1),
+          type: 'bus'
+        },{
+          position: new google.maps.LatLng(bus2),
+          type: 'bus'
+        },{
+          position: new google.maps.LatLng(bus3),
+          type: 'bus'
+        },{
+          position: new google.maps.LatLng(bus4),
+          type: 'bus'
+        },{
+          position: new google.maps.LatLng(atm1),
+          type: 'atm'
+        },{
+          position: new google.maps.LatLng(atm2),
+          type: 'atm'
+        },{
+          position: new google.maps.LatLng(atm3),
+          type: 'atm'
+        },{
+          position: new google.maps.LatLng(atm4),
+          type: 'atm'
+        }
       ];
 
       for (var i = 0; i < features.length; i++) {
-          var marker = new google.maps.Marker({
-            position: features[i].position,
-            icon: icons[features[i].type].icon,
-            map: map
-          });
-        };
+        var marker = new google.maps.Marker({
+          position: features[i].position,
+          icon: icons[features[i].type].icon,
+          map: map
+        });
+      };
     }
+
+    function markerr() {
+    };
   </script>
+
+
+
+
+
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXLbdI05bk5F0h0JKOeff0Wo5kycmi7is&callback=initMap" async defer></script>
 
   </script>

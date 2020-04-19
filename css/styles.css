@@ -149,9 +149,30 @@ body{
   z-index: -1;
 }
 
+.location-content{
+  margin-top: -6rem;
+  padding: 0 10%;
+}
+
 #location h1 {
   font-size: 2rem;
-  margin-top: -6rem;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.marker-btn {
+  border-radius: 100%;
+  background: #fff;
+  border: 0;
+  padding: 0.46rem 0.55rem;
+  color: #373737;
+  margin: 0 0.3rem;
+}
+
+.marker-btn:hover{
+  color: #00AEEF;
+  background: #fff;
 }
 
 #map {
