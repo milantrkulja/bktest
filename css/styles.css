@@ -245,8 +245,8 @@ border-color: transparent !important;
 
 #studentinfo-cover {
   background-color: #222831;
-  background-image: url(../images/house1.png);
-  height: calc(70vh);
+  background-image: url(../images/background.png);
+  height: calc(100vh);
   background-size: cover;
   background-position: center;
 
@@ -289,9 +289,9 @@ border-color: transparent !important;
 }
 
 .contact-button:focus{
+  background-color: transparent;
+  border-color: #fff;
   color: #fff;
-  background-color: #00AEEF;
-  border-color: #00AEEF;
   box-shadow: none;
 }
 
@@ -340,7 +340,49 @@ border-color: transparent !important;
 }
 
 .form-button:hover {
+  background-color: transparent;
+  border-color: #222831;
+  color: #222831;
+}
+
+.faq-button {
+  border-radius: 0.2rem;
+  background-color: transparent;
+  border-color: #222831;
+  color: #222831;
+}
+.faq-button:hover {
   background-color: #00AEEF;
   border-color: #00AEEF;
+  /* PROMENI OVO */
+  color: #fff !important;
+}
+.faq-button:focus{
   color: #fff;
+  background-color: #00AEEF;
+  border-color: #00AEEF;
+  box-shadow: none;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: #00AEEF;
+  border-color: #00AEEF;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus{
+  box-shadow: none;
+}
+
+.btn-primary.focus, .btn-primary:focus{
+  color: #fff;
+  background-color: #00AEEF;
+  border-color: #00AEEF;
+  box-shadow: none;
+}
+
+.propertie-heading h1{
+  margin-top: 20%;
+  font-weight: 700;
+  font-size: 5rem;
 }
