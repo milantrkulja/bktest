@@ -1,0 +1,130 @@
+@media (max-width: 600px) {
+
+  body{
+    text-align: center;
+    padding: 0;
+  }
+
+  .cover-welcome {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  .cover-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .cover-apply {
+    border-radius: 0.2rem;
+    background-color: #00AEEF;
+    border-color: #00AEEF;
+    margin: 5% 0;
+  }
+
+  #about-us {
+    color: #222831;
+    padding: 4% 5%;
+  }
+
+  .about-us-content h1{
+    font-size: 1.5rem;
+  }
+
+  .about-us-content p{
+    padding-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  #properties {
+    padding: 0 5%;
+    text-align: center;
+    color: #222831;
+  }
+
+  #properties h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  #location h1 {
+    font-size: 1.5rem;
+    margin-top: -7rem;
+  }
+
+  #apply-now {
+    background-color: #57585A;
+    padding: 1.8% 10%;
+    text-align: center;
+  }
+
+  #apply-now h2{
+    font-size: 1.3 rem;
+    margin: 0;
+  }
+
+  .btn-col {
+    text-align: center;
+  }
+
+  .footer-container h3{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  .footer-container p{
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
+
+  .copyright-text{
+    text-align: center;
+  }
+
+  .copyright-text p {
+    color:  rgba(255, 255, 255, 0.6);
+    font-size: 0.5rem;
+    font-weight: 300;
+  }
+
+  #contact-cover {
+    text-align: left;
+  }
+
+  .contact-cover-content {
+    padding: 1% 10%;
+  }
+
+  .contact-cover-content h1{
+    margin: 10% 0;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .contact-form {
+    padding: 5% 1% 0;
+  }
+
+  #contact-cover label{
+    display: none;
+  }
+
+  #contact-cover small {
+    font-size: 0;
+  }
+
+  .contact-form {
+    padding: 0 5%;
+  }
+
+  .form-text-input {
+    margin-bottom: 0.5rem;
+  }
+
+
+}
