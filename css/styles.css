@@ -270,7 +270,6 @@ body{
 .contact-cover-content h1{
   font-weight: 700;
   font-size: 5rem;
-
 }
 
 #contact-cover label{
@@ -306,8 +305,12 @@ body{
   margin-right: 2rem;
 }
 
-.form-button:hover{
+.form-button:hover {
   background-color: #00AEEF;
   border-color: #00AEEF;
   color: #fff;
+}
+
+.form-group {
+  margin: 0;
 }

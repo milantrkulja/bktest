@@ -97,20 +97,34 @@
   }
 
   .contact-cover-content {
-    padding: 10% 10%;
+    padding: 1% 10%;
   }
 
   .contact-cover-content h1{
+    margin: 10% 0;
     font-weight: 700;
     font-size: 3rem;
   }
-
-
 
   .contact-form {
     padding: 5% 1% 0;
   }
 
+  #contact-cover label{
+    display: none;
+  }
+
+  #contact-cover small {
+    font-size: 0;
+  }
+
+  .contact-form {
+    padding: 0 5%;
+  }
+
+  .form-text-input {
+    margin-bottom: 0.5rem;
+  }
 
 
 }
