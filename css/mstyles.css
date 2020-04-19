@@ -111,9 +111,9 @@
 
   #contact-form p{
     padding: 0;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     line-height: 1.5;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 300;
     text-align: justify;
   }
