@@ -37,7 +37,7 @@
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 300;
-    text-align: center;
+    text-align: justify;
   }
 
   #properties {
@@ -92,39 +92,42 @@
     font-weight: 300;
   }
 
-  #contact-cover {
-    text-align: left;
-  }
+/* Contact Mobile */
+
+
 
   .contact-cover-content {
-    padding: 1% 10%;
+    padding: 10% 10%;
   }
 
   .contact-cover-content h1{
-    margin: 10% 0;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 3.5rem;
   }
 
-  .contact-form {
-    padding: 5% 1% 0;
+  #contact-form {
+    padding: 10% 10%;
   }
 
-  #contact-cover label{
-    display: none;
+  #contact-form p{
+    padding: 0;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: justify;
+  }
+  .form {
+    text-align: left;
   }
 
-  #contact-cover small {
-    font-size: 0;
-  }
 
-  .contact-form {
-    padding: 0 5%;
-  }
 
-  .form-text-input {
-    margin-bottom: 0.5rem;
-  }
+
+
+
+
+
 
 
 }
