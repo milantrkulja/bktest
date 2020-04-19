@@ -32,45 +32,48 @@
 
   <!-- Cover -->
   <section id="cover" data-aos="fade">
-
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="">B<span class="brand-k">K</span><span class="brand-rents">rents</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Properties
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="">333 Lester St</a>
-              <a class="dropdown-item" href="">330 Lester St</a>
-              <a class="dropdown-item" href="">338 Lester St</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Student Info</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contact Info</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="cover-content">
-      <div class="row">
-        <div class="col-lg-6 col-md-6">
-          <h2 class="cover-welcome">Welcome to BKrents!</h2>
-          <h1 class="cover-heading">Now Leasing for 2020</h1>
-          <button class="cover-apply btn btn-lg btn-dark" type="button" name="button">Apply Now!</button>
-          <button class="cover-contact btn btn-lg btn-outline-light" type="button" name="button">Conact Us</button>
+    <div id="home-cover">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">B<span class="brand-k">K</span><span class="brand-rents">rents</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Properties
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="333lester.html">333 Lester St</a>
+                <a class="dropdown-item" href="330lester.html">330 Lester St</a>
+                <a class="dropdown-item" href="338lester.html">338 Lester St</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="studentinfo.html">Student Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Info</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="cover-content">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <h2 class="cover-welcome">Welcome to BKrents!</h2>
+            <h1 class="cover-heading">Now Leasing for 2020</h1>
+            <button class="cover-apply btn btn-lg btn-dark" type="button" name="button">Apply Now!</button>
+            <button class="cover-contact btn btn-lg btn-outline-light" type="button" name="button">Conact Us</button>
+          </div>
         </div>
       </div>
+
+      
     </div>
   </section>
 
@@ -408,40 +411,39 @@
 
 
       var features = [{
-          position: new google.maps.LatLng(home),
-          type: 'home'
-        },{
-          position: new google.maps.LatLng(university1),
-          type: 'university'
-        },{
-          position: new google.maps.LatLng(university2),
-          type: 'university'
-        },{
-          position: new google.maps.LatLng(bus1),
-          type: 'bus'
-        },{
-          position: new google.maps.LatLng(bus2),
-          type: 'bus'
-        },{
-          position: new google.maps.LatLng(bus3),
-          type: 'bus'
-        },{
-          position: new google.maps.LatLng(bus4),
-          type: 'bus'
-        },{
-          position: new google.maps.LatLng(atm1),
-          type: 'atm'
-        },{
-          position: new google.maps.LatLng(atm2),
-          type: 'atm'
-        },{
-          position: new google.maps.LatLng(atm3),
-          type: 'atm'
-        },{
-          position: new google.maps.LatLng(atm4),
-          type: 'atm'
-        }
-      ];
+        position: new google.maps.LatLng(home),
+        type: 'home'
+      }, {
+        position: new google.maps.LatLng(university1),
+        type: 'university'
+      }, {
+        position: new google.maps.LatLng(university2),
+        type: 'university'
+      }, {
+        position: new google.maps.LatLng(bus1),
+        type: 'bus'
+      }, {
+        position: new google.maps.LatLng(bus2),
+        type: 'bus'
+      }, {
+        position: new google.maps.LatLng(bus3),
+        type: 'bus'
+      }, {
+        position: new google.maps.LatLng(bus4),
+        type: 'bus'
+      }, {
+        position: new google.maps.LatLng(atm1),
+        type: 'atm'
+      }, {
+        position: new google.maps.LatLng(atm2),
+        type: 'atm'
+      }, {
+        position: new google.maps.LatLng(atm3),
+        type: 'atm'
+      }, {
+        position: new google.maps.LatLng(atm4),
+        type: 'atm'
+      }];
 
       for (var i = 0; i < features.length; i++) {
         var marker = new google.maps.Marker({
@@ -452,13 +454,8 @@
       };
     }
 
-    function markerr() {
-    };
+    function markerr() {};
   </script>
-
-
-
-
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXLbdI05bk5F0h0JKOeff0Wo5kycmi7is&callback=initMap" async defer></script>
 

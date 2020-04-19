@@ -92,6 +92,25 @@
     font-weight: 300;
   }
 
+  #contact-cover {
+    text-align: left;
+  }
+
+  .contact-cover-content {
+    padding: 10% 10%;
+  }
+
+  .contact-cover-content h1{
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+
+
+  .contact-form {
+    padding: 5% 1% 0;
+  }
+
 
 
 }
