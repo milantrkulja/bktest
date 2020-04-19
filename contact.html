@@ -63,7 +63,7 @@
 
       <div class="contact-cover-content">
         <h1>Reach out,<br> we’d love to hear<br> from you!</h1>
-        <button class="btn btn-primary btn-lg contact-button" type="button" name="button">Contact Form</button>
+        <a data-scroll href="#contact-form" class="btn btn-primary btn-lg contact-button">Contact Form</a>
       </div>
     </div>
   </section>
@@ -73,7 +73,8 @@
     <div class="row">
       <div class="col-lg-6">
         <h3>Contact Us</h3>
-        <p>At BK Rents we understand that your time is very valuable, we aim to be as responsive as possible to ensure you have a positive experience with us. If you’re interested in leasing a room, have availability questions, or any personal inquiries, please don’t hesitate to reach out. Please fill out the contact form below, or contact us with the information provided and one of our friendly staff will be in touch with you shortly!</p>
+        <p>At BK Rents we understand that your time is very valuable, we aim to be as responsive as possible to ensure you have a positive experience with us. If you’re interested in leasing a room, have availability questions, or any personal
+          inquiries, please don’t hesitate to reach out. Please fill out the contact form below, or contact us with the information provided and one of our friendly staff will be in touch with you shortly!</p>
       </div>
 
       <div class="form col-lg-6">
@@ -145,6 +146,12 @@
         $('.navbar-dark').toggleClass('color-changed');
       });
     });
+  </script>
+
+  <script src="js/smooth-scroll.min.js"></script>
+
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
   </script>
 
 </body>
