@@ -251,6 +251,30 @@ border-color: transparent !important;
   background-position: center;
 
 }
+/* #############################################################################
+################################################################################
+                       Properties Page Styling
+################################################################################
+############################################################################# */
+
+#properties-cover {
+  background-color: gray;
+  background-image: url(../images/properties.png);
+  height: calc(100vh);
+  background-size: cover;
+  background-position: center;
+}
+
+.properties-cover-content {
+  padding: 12% 15%;
+}
+
+.properties-cover-content h1{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
 
 /* #############################################################################
 ################################################################################
@@ -381,8 +405,13 @@ border-color: transparent !important;
   box-shadow: none;
 }
 
-.propertie-heading h1{
-  margin-top: 20%;
-  font-weight: 700;
-  font-size: 5rem;
+#building {
+  background-color: gray;
+  text-align: center;
+  padding: 10% 10%;
+}
+
+.asd {
+  width: 100%;
+  height: auto;
 }
