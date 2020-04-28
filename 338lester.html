@@ -23,6 +23,9 @@
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
   <title>Student Info</title>
 
@@ -32,7 +35,7 @@
 
   <!-- Cover -->
   <section id="cover" data-aos="fade">
-    <div id="studentinfo-cover">
+    <div id="properties-cover">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="index.html">B<span class="brand-k">K</span><span class="brand-rents">rents</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,12 +65,52 @@
           </ul>
         </div>
       </nav>
-      <div class="propertie-heading container">
-        <h1>338 Lester Street</h1>
+      <div class="properties-cover-content">
+        <h1>Properties</h1>
+        <h2>A place to call home.</h2>
+        <button class="btn btn-primary contact-button btn-lg " type="button" name="button">Explore</button>
       </div>
     </div>
   </section>
 
+  <section id="lester333">
+
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>333 Lester Street</h2>
+        <p>333 Lester is a 6-storey student residence apartment building located steps away from University of Waterloo, Wilfred Laurier University and Conestoga College campuses. This building offers students a quiet and safe living experience with
+          24/7
+          video surveillance and keyless entry to the building and bedrooms. Our spacious and fully equipped gym offers tenants the perfect place to come together, take a break, and enjoy a workout! Each suite comes with a furnished living/dining
+          area, a
+          perfect place for tenants to gather and socialize. Kitchens are spacious and fully equipped with all the essential appliances, and plenty of counterspace and storage for all tenants.
+        </p>
+      </div>
+      <div class="features-list col-lg-4">
+        <ul>
+          <li><i class="las la-check-circle"></i> Accessible Parking & Entry</li>
+          <li><i class="las la-check-circle"></i> Wired & Wireless internet </li>
+          <li><i class="las la-check-circle"></i> Convenient access to bus routes </li>
+          <li><i class="las la-check-circle"></i> 24-hour maintenance</li>
+          <li><i class="las la-check-circle"></i> On site property office </li>
+          <li><i class="las la-check-circle"></i> Surveillance Laundry</li>
+          <li><i class="las la-check-circle"></i> Covered parking. </li>
+          <li><i class="las la-check-circle"></i> Covered Bicycle Storage </li>
+        </ul>
+      </div>
+    </div>
+    <button class="btn btn-primary faq-button btn-lg" type="button" name="button">View Floorplan</button>
+  </section>
+
+
+  <div class="milan">
+    <div><img src="images/1.jpg" alt=""></div>
+    <div><img src="images/2.jpg" alt=""></div>
+    <div><img src="images/3.jpg" alt=""></div>
+    <div><img src="images/4.jpg" alt=""></div>
+    <div><img src="images/5.jpg" alt=""></div>
+  </div>
+
+  
 
   <section id=apply-now>
     <div class="row">
@@ -100,9 +143,27 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+
+
+  <script src="js/glide.js"></script>
+
+
+<script>
+$(document).ready(function(){
+  $('.milan').slick({
+    autoplay: true,
+    speed: 1000,
+    autoplaySpeed: 1000,
+  });
+});
+</script>
+
   <script>
     AOS.init();
   </script>
+
   <script>
     $(document).ready(function() {
       $('.navbar-dark > button').on('click', function() {
@@ -111,5 +172,9 @@
     });
   </script>
 
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
 </body>
+
 </html>

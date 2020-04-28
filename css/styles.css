@@ -2,6 +2,8 @@
 body{
   font-family: 'Montserrat', sans-serif;
   color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navigation Bar */
@@ -258,7 +260,7 @@ border-color: transparent !important;
 ############################################################################# */
 
 #properties-cover {
-  background-color: gray;
+  background-color: #222831;
   background-image: url(../images/properties.png);
   height: calc(100vh);
   background-size: cover;
@@ -271,8 +273,104 @@ border-color: transparent !important;
 
 .properties-cover-content h1{
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 5rem;
 }
+
+#lester333 {
+  padding: 5% 20% 1% ;
+  color: #222831;
+}
+
+#lester333 h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 3rem 0;
+}
+
+#lester333 p {
+  font-size: 1.2rem;
+  line-height: 2.2;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.features {
+  padding: 0 20%;
+  color: #222831;
+}
+
+.features-list {
+  margin: 9rem 0 4rem 0;
+}
+
+.features p {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.floor-button {
+  border-radius: 0.2rem;
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.floor-button:hover {
+  background-color: #00AEEF;
+  border-color: #00AEEF;
+  /* PROMENI OVO */
+  color: #fff !important;
+}
+.floor-button:focus{
+  color: #fff;
+  background-color: #00AEEF;
+  border-color: #00AEEF;
+  box-shadow: none;
+}
+
+
+ul {
+  list-style-type: none;
+  line-height: 2.5;
+}
+
+#gallery-333 {
+  text-align: center;
+  margin: 4rem 0;
+  background-color: #222831;
+}
+
+#gallery-3333 {
+  padding: 5% 20% 1% ;
+}
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: blue;
+}
+.box1 {
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+}
+.box2 {
+  width: 250px;
+  height: 250px;
+  background-color: green;
+}
+
+.btm {
+  margin-top: 50px;
+}
+
+.glide {
+  text-align: center;
+}
+
+.milan {
+  padding: 10% 5%;
+}
+
+.slick-prev, .slick-next{ background:red;}
 
 
 
@@ -403,15 +501,4 @@ border-color: transparent !important;
   background-color: #00AEEF;
   border-color: #00AEEF;
   box-shadow: none;
-}
-
-#building {
-  background-color: gray;
-  text-align: center;
-  padding: 10% 10%;
-}
-
-.asd {
-  width: 100%;
-  height: auto;
 }
