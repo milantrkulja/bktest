@@ -134,6 +134,10 @@
   margin-top: 5rem;
 }
 
+.properties-cover-content h2{
+  font-size: 1.2rem;
+}
+
 #building {
   padding: 4% 10%;
 }
