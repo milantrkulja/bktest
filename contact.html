@@ -21,12 +21,19 @@
 
   <link rel="stylesheet" href="css/mstyles.css">
 
+  <link rel="stylesheet" href="css/tstyles.css">
+
+  <link rel="stylesheet" href="css/lstyles.css">
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Contact Us</title>
 </head>
 
 <body>
+
+  <a id="back2Top" title="Back to top" href="#"><i class="las la-angle-up la-xs"></i></a>
+
 
   <!-- Cover -->
   <section id="cover" data-aos="fade">
@@ -55,7 +62,7 @@
       </nav>
 
       <div class="contact-cover-content">
-        <h1 data-aos="fade-down" >Reach out,<br> we’d love to hear<br> from you!</h1>
+        <h1 data-aos="fade-down">Reach out,<br> we’d love to hear<br> from you!</h1>
         <a data-aos="fade-up" data-aos-delay="300" data-scroll href="#contact-form" class="btn btn-primary btn-lg contact-button">Contact Form</a>
       </div>
     </div>
@@ -68,11 +75,11 @@
         <h3>Contact Us</h3>
         <p>At BK Rents we understand that your time is very valuable, we aim to be as responsive as possible to ensure you have a positive experience with us. If you’re interested in leasing a room, have availability questions, or any personal
           inquiries, please don’t hesitate to reach out. Please fill out the contact form below, or contact us with the information provided and one of our friendly staff will be in touch with you shortly!</p>
-        <p>Please check our <a  href="studentinfo.html" class="btn btn-primary btn-sm faq-button">FAQs</a></p>
+        <p>Please check our <a href="studentinfo.html" class="btn btn-primary btn-sm faq-button">FAQs</a></p>
 
       </div>
 
-      <div class="form col-lg-6" data-aos="fade-up" data-aos-delay="300" >
+      <div class="form col-lg-6" data-aos="fade-up" data-aos-delay="300">
         <label class="name-label">Name *</label>
         <div class="row">
 
@@ -126,7 +133,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
@@ -151,6 +158,27 @@
 
   <script>
     var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+
+  <script>
+    $(window).scroll(function() {
+      var height = $(window).scrollTop();
+      if (height > 100) {
+        $('#back2Top').fadeIn();
+      } else {
+        $('#back2Top').fadeOut();
+      }
+    });
+    $(document).ready(function() {
+      $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({
+          scrollTop: 0
+        }, "slow");
+        return false;
+      });
+
+    });
   </script>
 
 </body>

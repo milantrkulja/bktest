@@ -447,17 +447,11 @@ border-color: transparent !important;
   color: #222831;
 }
 
-#contact-cover label{
-  font-size: 1rem;
-  font-weight: 300;
-}
-
 #contact-form p{
   padding: 5% 10% 5% 0;
   line-height: 2;
   font-size: 1.2rem;
   font-weight: 300;
-
 }
 
 /* Form positioning */
@@ -526,4 +520,27 @@ border-color: transparent !important;
   background-color: #00AEEF;
   border-color: #00AEEF;
   box-shadow: none;
+}
+
+#back2Top {
+    width: 45px;
+    line-height: 40px;
+    border: solid;
+    border-color: #c3c4c8;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    background-color: #c3c4c8;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    opacity: .75;
 }

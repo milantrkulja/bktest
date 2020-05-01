@@ -1,0 +1,102 @@
+@media (min-width: 900px) and (max-width: 1450px) {
+
+  .cover-welcome {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .cover-heading {
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin: 1rem 0 1rem 0;
+  }
+
+  #about-us {
+    padding: 4% 15% 5%;
+  }
+
+  .custom-card{
+    margin: 2rem 0.5rem;
+  }
+
+  .card-btn {
+    font-size: 1.1rem;
+  }
+
+  #apply-now {
+    padding: 2% 15%;
+  }
+
+  .properties-cover-content h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+  }
+
+  .properties-cover-content h2{
+    font-size: 1.5rem;
+  }
+
+  #building {
+    padding: 4% 15% 1% ;
+  }
+
+  #building p {
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  #building img {
+    max-width: calc(30vw);
+  }
+
+  #suites-section{
+    padding: 3% 15% 1%;
+  }
+
+  #suites-section h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  #suites-section p {
+    font-size: 1rem;
+  }
+
+  #building-features p{
+    font-size: 0.8rem;
+  }
+
+  .col-lg-3 {
+    padding: 0;
+  }
+
+  .floor-button {
+    font-size: 1rem;
+  }
+
+  #housing {
+    padding: 4% 15% 1% ;
+  }
+
+  #housing p{
+    font-size: 1rem;
+  }
+
+  #housing-features p{
+    font-size: 0.8rem;
+  }
+
+  #footer {
+    padding: 2% 15% 1px 15%;
+  }
+
+  .contact-cover-content h1{
+    font-size: 3.5rem;
+  }
+
+  #contact-form p{
+    font-size: 1rem;
+  }
+
+}
