@@ -173,7 +173,7 @@ body {
 #building-features p {
   font-size: 0.9rem;
   line-height: 1;
-  text-align: center;
+  text-align: left;
 }
 
 .floor-button {
@@ -206,7 +206,7 @@ body {
 #housing-features p {
   font-size: 0.9rem;
   line-height: 1;
-  text-align: center;
+  text-align: left;
 }
 
 .housing-gallery-item {
