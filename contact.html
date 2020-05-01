@@ -23,7 +23,7 @@
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <title>Student Info</title>
+  <title>Contact Us</title>
 </head>
 
 <body>
@@ -41,29 +41,22 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Properties
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="333lester.html">333 Lester St</a>
-                <a class="dropdown-item" href="330lester.html">330 Lester St</a>
-                <a class="dropdown-item" href="338lester.html">338 Lester St</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="properties.html">Properties</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="studentinfo.html">Student Info</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact Info<span class="sr-only">(current)</a>
+              <a class="nav-link" href="contact.html">Contact Us<span class="sr-only">(current)</a>
             </li>
           </ul>
         </div>
       </nav>
 
       <div class="contact-cover-content">
-        <h1>Reach out,<br> we’d love to hear<br> from you!</h1>
-        <a data-scroll href="#contact-form" class="btn btn-primary btn-lg contact-button">Contact Form</a>
+        <h1 data-aos="fade-down" >Reach out,<br> we’d love to hear<br> from you!</h1>
+        <a data-aos="fade-up" data-aos-delay="300" data-scroll href="#contact-form" class="btn btn-primary btn-lg contact-button">Contact Form</a>
       </div>
     </div>
   </section>
@@ -71,15 +64,15 @@
   <section id="contact-form">
 
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-right">
         <h3>Contact Us</h3>
         <p>At BK Rents we understand that your time is very valuable, we aim to be as responsive as possible to ensure you have a positive experience with us. If you’re interested in leasing a room, have availability questions, or any personal
           inquiries, please don’t hesitate to reach out. Please fill out the contact form below, or contact us with the information provided and one of our friendly staff will be in touch with you shortly!</p>
-        <p>Please check our <a  class="btn btn-primary btn-sm faq-button">FAQs</a></p>
+        <p>Please check our <a  href="studentinfo.html" class="btn btn-primary btn-sm faq-button">FAQs</a></p>
 
       </div>
 
-      <div class="form col-lg-6">
+      <div class="form col-lg-6" data-aos="fade-up" data-aos-delay="300" >
         <label class="name-label">Name *</label>
         <div class="row">
 
@@ -113,7 +106,7 @@
           <label>Message *</label>
           <textarea class="form-ms form-control" name="name" rows="5"></textarea>
         </div>
-        <button type="submit" class="form-button btn btn-lg btn-primary">Submit</button>
+        <a href="contact.html" class="form-button btn btn-lg btn-primary">Submit</a>
       </div>
     </div>
   </section>
@@ -141,7 +134,9 @@
 
 
   <script>
-    AOS.init();
+    AOS.init({
+      duration: 800
+    });
   </script>
 
   <script>

@@ -43,21 +43,14 @@
             <li class="nav-item active">
               <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Properties
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="333lester.html">333 Lester St</a>
-                <a class="dropdown-item" href="330lester.html">330 Lester St</a>
-                <a class="dropdown-item" href="338lester.html">338 Lester St</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="properties.html">Properties</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="studentinfo.html">Student Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Info</a>
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -65,10 +58,10 @@
       <div class="cover-content">
         <div class="row">
           <div class="col-lg-6 col-md-6">
-            <h2 class="cover-welcome">Welcome to BKrents!</h2>
-            <h1 class="cover-heading">Now Leasing for 2020</h1>
-            <button class="cover-apply btn btn-lg btn-dark" type="button" name="button">Apply Now!</button>
-            <a href="contact.html" class="cover-contact btn btn-lg btn-outline-light">Conact Us</a>
+            <h2 data-aos="fade-down" data-aos-delay="50" data-aos-duration="500" class="cover-welcome">Welcome to BKrents!</h2>
+            <h1 data-aos="fade-down" data-aos-delay="100" data-aos-duration="500" class="cover-heading">Now Leasing for 2020</h1>
+            <a data-aos="fade-up" data-aos-delay="300" href="studentinfo.html" class="cover-apply btn btn-lg btn-primary">Apply Now!</a>
+            <a data-aos="fade-up" data-aos-delay="300" href="contact.html" class="cover-contact btn btn-lg btn-outline-light">Conact Us</a>
           </div>
         </div>
       </div>
@@ -78,7 +71,7 @@
   </section>
 
   <section id="about-us">
-    <div class="about-us-content">
+    <div class="about-us-content" data-aos="fade-up" data-aos-offset="200">
       <h1>About Us</h1>
       <p>At BK Rents, we are committed to providing tenants with more than just a student residence, we are committed to providing tenants a place to call home. We understand that most of you are about to embark on new changes in your life. With new
         changes and experiences comes many important decisions. Allow us to help finding a place to live an easy decision for you. With over 10 years of industry experience, our welcoming staff prides themselves in providing tenants a clean, safe and
@@ -87,10 +80,9 @@
     </div>
   </section>
 
-  <section id="properties">
+  <section id="properties" data-aos="fade-up" data-aos-offset="200">
     <h1>Properties</h1>
     <div class="row">
-
       <div class="col-lg-4 col-md-12">
         <div class="custom-card card">
           <div class="card-header">
@@ -100,7 +92,7 @@
             <p class="card-text">5 bed</p>
             <p class="card-text">2 bath</p>
             <p class="card-text">120 sqm</p>
-            <a href="333lester.html" class="card-btn btn btn-lg btn-outline-primary">Learn More</a>
+            <a href="properties.html#building" class="card-btn btn btn-lg btn-outline-primary">Learn More</a>
           </div>
         </div>
       </div>
@@ -113,7 +105,7 @@
             <p class="card-text">5 bed</p>
             <p class="card-text">2 bath</p>
             <p class="card-text">120 sqm</p>
-            <a href="330lester.html" class="card-btn btn btn-lg btn-primary">Learn More</a>
+            <a href="properties.html#housing" class="card-btn btn btn-lg btn-primary">Learn More</a>
           </div>
         </div>
       </div>
@@ -127,7 +119,7 @@
             <p class="card-text">5 bed</p>
             <p class="card-text">2 bath</p>
             <p class="card-text">120 sqm</p>
-            <a href="338lester.html" class="card-btn btn btn-lg btn-primary">Learn More</a>
+            <a href="properties.html#housing" class="card-btn btn btn-lg btn-primary">Learn More</a>
           </div>
         </div>
       </div>
@@ -140,20 +132,20 @@
     </div>
 
     <div class="location-content">
-      <h1 class="my-auto">Location</h1>
+      <h1 class="my-auto" data-aos="fade-up" data-aos-offset="100">Location</h1>
     </div>
     <div id="map">
 
     </div>
   </section>
 
-  <section id=apply-now>
+  <section id="apply-now">
     <div class="row">
       <div class="text-col col-lg-8 col-sm-12 my-auto">
         <h2>Your new home awaits.</h2>
       </div>
       <div class="btn-col col-lg-4 col-sm-12">
-        <button class="cover-apply btn btn-lg btn-primary" type="button" name="button">Apply Now!</button>
+        <a href="studentinfo.html" class="cover-apply btn btn-lg btn-primary" data-aos="fade-right">Apply Now!</a>
       </div>
     </div>
   </section>
@@ -180,8 +172,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
   <script>
-    AOS.init();
+    AOS.init({
+      duration: 1000
+    });
   </script>
 
   <script>

@@ -8,12 +8,13 @@
   .cover-welcome {
     font-weight: 300;
     font-size: 1rem;
+    margin-top: 5rem;
   }
 
   .cover-heading {
     font-weight: 700;
     font-size: 3rem;
-    margin: 2rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
   }
 
   .cover-apply {
@@ -38,6 +39,7 @@
     line-height: 1.5;
     font-weight: 300;
     text-align: justify;
+
   }
 
   #properties {
@@ -119,5 +121,97 @@
   .form {
     text-align: left;
   }
+
+/* Properties Mobile */
+
+.properties-cover-content {
+  padding: 10% 10%;
+}
+
+.properties-cover-content h1{
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+}
+
+#building {
+  padding: 4% 10%;
+}
+
+#building h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+#building p{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+#building img{
+  max-width: calc(80vw);
+}
+
+#suites-section{
+  padding: 3% 10% 1%;
+}
+
+#suites-section h3{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+#suites-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#building-features p{
+  font-size: 0.8rem;
+  line-height: 0.6;
+  text-align: center;
+}
+
+.floor-button {
+  margin-bottom: 2rem;
+}
+
+.building-gallery-item {
+  max-height: calc(100vw);
+}
+
+#housing {
+  padding: 4% 10%;
+}
+
+#housing h3 {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+#housing p{
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#housing-features{
+  margin-bottom: 2rem;
+}
+
+#housing-features p{
+  font-size: 0.8rem;
+  line-height: 0.6;
+  text-align: center;
+}
+
+.housing-gallery-item {
+  max-height: calc(100vw);
+}
+
 
 }
